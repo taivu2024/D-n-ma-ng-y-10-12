@@ -1,0 +1,51 @@
+.header {
+    justify-content: space-between;
+    background-color: black;
+}
+
+.header-left {
+    align-items: center;
+    padding: 8px;
+}
+
+.header-icon {
+    color: var(--white-color);
+    padding: 8px 16px;
+}
+
+.header-icon:hover {
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.intro {
+    padding: 48px 16px;
+    text-align: center;
+}
+
+.intro-img {
+    padding: 12px 24px;
+    position: relative;
+    color: #f1f1f1;
+}
+.intro-text{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+}
+.intro-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #000;
+    background-color: #919191;
+    border: none;
+}
+
+.intro-button:hover {
+    background-color: #ccc;
+}
