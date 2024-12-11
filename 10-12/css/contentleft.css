@@ -1,0 +1,33 @@
+.content{
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+.content-left{
+    width: 60%;
+    margin: 16px;
+    padding: 12px 24px;
+    background-color: white;
+}
+.title-heading{
+    margin: 10px 0;
+}
+.button-like{
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    color: #000;
+}
+.button-like:hover{
+    background-color: #ccc;
+}
+.button-replies{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    float: right;
+    font-weight: 600;
+}
+.button-replies:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
