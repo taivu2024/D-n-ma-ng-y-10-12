@@ -1,0 +1,80 @@
+.content-right{
+    width: 33.33%;
+}
+.text-right{
+    padding: 1px 16px;
+    background-color: #000;
+    margin-top: -8px;
+    color: white;
+}
+.item-right{
+    margin: 16px;
+}
+.hr{
+    border: 1px;
+    margin: 20px 0;
+}
+.padding816{
+    padding: 8px 16px;
+}
+.post{
+    background-color: black;
+    margin:0 16px;
+;
+}
+.post-item{
+    background-color: white;
+    margin: 0px 16px; 
+    padding : 16px;
+}
+.advertise{
+    background-color: var(--white-color);
+    padding: 1px 16px;
+    margin: 0 16px;
+}
+.advertise-child{
+    height: 200px;
+    margin: 16px 0;
+    padding: 1px 16px;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.ad{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tag{
+    background-color: white;
+    padding: 1px 16px;
+    margin: 0 16px;
+}
+.span{
+    color: black;
+    display: inline-block;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+}
+.inspiration{
+    background-color: var(--white-color);
+    padding: 0 8px;
+    margin: 0 16px
+}
+.inpri-item{
+    padding: 0 8px;
+    width: 50%;
+}
+.sub{
+    padding: 1px 16px;
+    overflow: hidden;
+    margin: 0 16px;
+    background-color: white;
+}
+.button-sub{
+    background-color: rgb(196, 15, 15);
+    color: white;
+    width: 95%;
+    border: none;
+    margin:15px 0;
+}
