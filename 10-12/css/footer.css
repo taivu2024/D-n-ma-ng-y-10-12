@@ -1,0 +1,15 @@
+.footer{
+    background-color: #333;
+    padding: 32px;
+}
+.button-footer{
+    background-color: #000;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    color: aliceblue;
+    border: none;
+}
+.button-footer:hover{
+    background-color: #919191;
+    color: #000;
+}
