@@ -4,13 +4,12 @@
     border: 1px solid #ccc;
 }
 .content-left{
-    width: 60%;
+    width: 66.66%;
+}
+.title-heading{
     margin: 16px;
     padding: 12px 24px;
     background-color: white;
-}
-.title-heading{
-    margin: 10px 0;
 }
 .button-like{
     border: 1px solid #ccc;
