@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dự án ma 10-12</title>
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/contentleft.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/contentleft.css">
+    <link rel="stylesheet" href="./css/contentright.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -25,14 +28,14 @@
         <a href="#" class="header-icon"><i class="fa fa-search"></i></a>
     </div>
     <!-- End header -->
-    <div class="container">
+    <div class="container col-t-12">
         <div class="intro">
             <h1 style="margin: 10px 0;"><b style="font-size: 48px; font-weight: 600;">JANE BLOGLIFE</b></h1>
             <h6 style="margin: 10px 0; font-size: 16px;">Welcome to the blog of <span
                     style="background-color: black; color: white;">Jan's work</span></h6>
         </div>
         <div class="intro-img">
-            <img src="/img/jane.jpg" alt="dên">
+            <img src="./img/jane.jpg" alt="dên">
             <div class="intro-text">
                 <h1 style="margin: 10px 0; font-size: 36px;">Jane's</h1>
                 <b style="font-size: 64px;">FASHION BLOG</b>
@@ -40,13 +43,13 @@
                 <button class="intro-button">SUBCRIBE</button>
             </div>
         </div>
-        <div class="content">
-            <div class="content-left">
+        <div class="content flex col-t-12">
+            <div class="content-left col-t-12">
                 <div class="title-heading">
                     <h3 style="font-size: 24px; text-align: center;">TITLE HEADING</h3>
                     <H5 style="font-size: 18px; text-align: center;">Title description, <span style="opacity: 0.6;">May
                             2, 2016</span></H5>
-                    <img style="width: 100%;" src="/img/girl_hat.jpg" alt="a">
+                    <img style="width: 100%;" src="./img/girl_hat.jpg" alt="a">
                     <p> <strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry.
                         Fashion fashion and
                         mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem
@@ -63,17 +66,180 @@
                     </div>
                     <hr style="margin: 20px 0;">
                     <div class="flex">
-                        <img style="width: 90px; margin-right: 70px;" src="/img/avatar_smoke.jpg" alt="áda">
+                        <img style="width: 90px; margin-right: 70px;" src="./img/avatar_smoke.jpg" alt="áda">
                         <div>
-                            <h4 style="margin: 10px 0;">Geogre <span style="opacity: 0.6;">May 3, 2015, 5:32 PM</span></h4>
+                            <h4 style="margin: 10px 0;">Geogre <span style="opacity: 0.6;">May 3, 2015, 5:32 PM</span>
+                            </h4>
                             <p style="margin: 15px 0;">Great blog post! Folowing</p>
                         </div>
                     </div>
                 </div>
+                <div class="title-heading">
+                    <h3 style="font-size: 24px; text-align: center;">TITLE HEADING</h3>
+                    <H5 style="font-size: 18px; text-align: center;">Title description, <span
+                            style="opacity: 0.6;">April
+                            23, 2016</span></H5>
+                    <img style="width: 100%;" src="./img/man_hat.jpg" alt="a">
+                    <p> <strong>Hats!</strong> The trend this summer is hats for men!</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco.</p>
+                    <div>
+                        <button class="button-like"><i class="fa fa-thumbs-up"></i>Like</button>
+                        <button class="button-replies">Replies <span
+                                style="color: black; background-color: white; padding: 0 8px;">2</span></button>
+                    </div>
+                </div>
+                <div class="title-heading">
+                    <h3 style="font-size: 24px; text-align: center;">TITLE HEADING</h3>
+                    <H5 style="font-size: 18px; text-align: center;">Title description, <span
+                            style="opacity: 0.6;">April
+                            7, 2016</span></H5>
+                    <img style="width: 100%;" src="./img/runway.jpg" alt="a">
+                    <p> <strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!
+                    </p>
+                    <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl
+                        vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                        magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam
+                        corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus
+                        vitae, ultricies congue gravida diam non fringilla.</p>
+                    <div>
+                        <button class="button-like"><i class="fa fa-thumbs-up"></i>Like</button>
+                        <button class="button-replies">Replies <span
+                                style="color: black; background-color: white; padding: 0 8px;">3</span></button>
+                    </div>
+                </div>
             </div>
+            <div class="content-right col-t-12">
+                <div class="item-right">
+                    <img style="width: 100%;" src="./img/avatar_girl2.jpg" alt="">
+                    <div class="text-right">
+                        <h4 style="margin: 10px 0;">My Name</h4>
+                        <p style="margin: 15px 0;">Just me, myself and I, exploring the universe of uknownment. I have a
+                            heart of love and a
+                            interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.
+                        </p>
+                    </div>
+                </div>
+                <hr class="hr">
+                <div style="width: 100%;">
+                    <div class="post padding816">
+                        <h4 style="margin: 10px 0; background-color: black; color: white;">Popular Post</h4>
+                    </div>
+                    <div class="post-item padding816 flex">
+                        <img width="50px" style="margin-right: 16px;" src="./img/avatar_smoke.jpg" alt="">
+                        <div>
+                            <span>Denim</span>
+                            <br>
+                            <span>Sed mattis nunc</span>
+                        </div>
+                    </div>
+                    <div class="post-item padding816 flex">
+                        <img width="50px" style="margin-right: 16px;" src="./img/bandmember.jpg" alt="">
+                        <div>
+                            <span>Sweaters</span>
+                            <br>
+                            <span>Praes tinci sed</span>
+                        </div>
+                    </div>
+                    <div class="post-item padding816 flex">
+                        <img width="50px" style="margin-right: 16px;" src="./img/workshop.jpg" alt="">
+                        <div>
+                            <span>Workshop</span>
+                            <br>
+                            <span>ultricies congue</span>
+                        </div>
+                    </div>
+                    <div class="post-item padding816 flex">
+                        <img width="50px" style="margin-right: 16px;" src="./img/avatar_smoke.jpg" alt="">
+                        <div>
+                            <span>Trends</span>
+                            <br>
+                            <span>Lorem ipsum dipsum</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr">
+                <div>
+                    <div class="post padding816">
+                        <h4 style="margin: 10px 0; background-color: black; color: white;">Advertise</h4>
+                    </div>
+                    <div class="advertise">
+                        <div class="advertise-child">
+                            <p class="ad">Your AD Hear</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr">
+                <div class="post padding816">
+                    <h4 style="margin: 10px 0; background-color: black; color: white;">Tags</h4>
+                </div>
+                <div class="tag">
+                    <p style="margin: 15px 0;">
+                        <span class="span" style="background-color: black; color: white;">Fashion</span>
+                        <span class="span">New York</span>
+                        <span class="span"> London</span>
+                        <span class="span">Hats</span>
+                        <span class="span">Norway</span>
+                        <span class="span">Sweaters</span>
+                        <span class="span">Ideas</span>
+                        <span class="span">Deals</span>
+                        <span class="span">Accessories</span>
+                        <span class="span">News</span>
+                        <span class="span">Clothing</span>
+                        <span class="span">Shopping</span>
+                        <span class="span">Jeans</span>
+                        <span class="span">Trends</span>
+                    </p>
+                </div>
+                <hr class="hr">
+                <div class="post padding816">
+                    <h4 style="margin: 10px 0; background-color: black; color: white;">Inspiration</h4>
+                </div>
+                <div class="inspiration flex">
+                    <div class="inpri-item">
+                        <img src="./img/1.jpg" alt="">
+                        <img src="./img/2.jpg" alt="">
+                    </div>
+                    <div class="inpri-item">
+                        <img src="./img/3.jpg" alt="">
+                        <img src="./img/4.jpg" alt="">
+                    </div>
+                </div>
+                <hr class="hr">
+                <div class="post padding816">
+                    <h4 style="margin: 10px 0; background-color: black; color: white;">Follow Me</h4>
+                </div>
+                <div class="padding816" style="margin: 0 16px; background-color: white;">
+                    <i style="font-size: 24px;" class="fa fa-facebook-official"></i> 
+                    <i style="font-size: 24px;" class="fa fa-instagram"></i> 
+                    <i style="font-size: 24px;" class="fa fa-snapchat"></i>
+                    <i style="font-size: 24px;" class="fa fa-pinterest-p"></i>
+                    <i style="font-size: 24px;" class="fa fa-twitter"></i>
+                    <i style="font-size: 24px;" class="fa fa-linkedin"></i>
+                </div>
+                <hr class="hr">
+                <div class="post padding816">
+                    <h4 style="margin: 10px 0; background-color: black; color: white;">Subscribe</h4>
+                </div>
+                <div class="sub">
+                     <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                     <input style="width: 96%; padding: 8px;" type="text" placeholder="Enter e-mail"> 
+                     <br>
+                     <button class="button-sub padding816">Subscribe</button>
+                </div>
+            </div> 
+        </div>
         </div>
     </div>
-
+    <div class="footer">
+        <div class="footer-item">
+            <button class="button-footer">
+                <i class="fa fa-arrow-up"></i>
+                <a style="text-decoration: none; color: aliceblue;" href="#">To the top</a>
+            </button>
+        </div>
+        <p>Powered by <a style="color: aliceblue;" href="#">w3.css</a></p>
 </body>
 
 </html>
